@@ -1,34 +1,41 @@
-        html,body,div,ul,li,img{padding: 0; margin: 0;}
+        html,body,div,ul,li,img,input{padding: 0; margin: 0;}
+        input,button{border: 0; outline: 0;}
         li{list-style: none;}
         .all{width: 100%; min-height: 1024px;}
         .top{width: 100px; height: 200px;}
         .menu_bg{width: 100%; height: 40px; background-color: #202020;}
-        .menu_content{margin: 0 auto; width: 1200px; height: 100%; }
+        .menu_content{margin: 0 auto; width: 1200123px; height: 100%;}
         .menu_left ul li{float: left; color: #a0a0a0; font-size: 14px; padding: 0 5px; line-height: 19px;}
         .menu_left{padding-top: 10px; float: left;}
         .menu_right{float: right;}
         .menu_right ul li{float: left; color: #a0a0a0; font-size: 14px; padding: 0 5px; line-height: 40px;}
         .line{margin-left: 10px; color: #333;}
         .menu_right ul li a{text-decoration: none; color: #a0a0a0;}
-        .menu_right ul li a:hover{color: #c89b3c;}
+        .menu_right ul li a:hover{color: #c89b3c; text-shadow:0 0 8px #c89b3c;}
         .menu_left ul li a{text-decoration: none; color: #a0a0a0;}
-        .menu_left ul li a:hover{color: #c89b3c;}
-        .menu_right ul{float: left;}
-        .drop_down{float: left; position: relative; color: #a0a0a0; background-color: #333; height: 40px; font-size: 14px; line-height: 40px; width: 117px; text-align: center; margin-left: 50px;}
+        .menu_left ul li a:hover{color: #c89b3c; text-shadow:0 0 8px #c89b3c;}
+        .drop_down{float: left; color: #a0a0a0; background-color: #202020; height: 40px; font-size: 14px; line-height: 40px; width: 117px; text-align: center; margin-left: 50px;}
         .drop_down_span{color: #919191!important;}
-        .drop_down_bg{background-color: #fff;}
-        .drop_down_con{position: relative; z-index: -1; width: 180px; height: 70px; box-shadow: 0 0 5px #ccc; margin:-6px 0 0 -63px; display: none; line-height: 69px; text-align: center; background-color: #fff;}
+        .drop_down_con{position: relative; z-index: 2; width: 180px; height: 170px; box-shadow: 0 0 20px #202020; margin:0px 0 0 -63px; display: none; line-height: 69px; text-align: center; background-color: aliceblue;}
         .drop_down_con_show{display: block!important;}
-        .drop_down_a{width: 117px; height: 40px; display: block; position: relative; z-index: 1;}
+        .drop_down_a{position: relative; z-index: 3; width: 117px; height: 40px; display: block;}
         .drop_down a{color: #a0a0a0; text-decoration: none;}
+        .drop_down_bg{background-color: rgb(240, 240, 240);}
         .content_bg{width: 1200px; height: 160px; margin: 0 auto;}
-        .content_bg_img{display: block; position: absolute; left: 0; z-index: -2;}
+        .content_bg_img{display: block; position: absolute; left: 0; z-index: -1;}
         .content_menu{width: 1200px; height: 160px;}
         .content_left{float: left; width: 200px; height: 160px;}
         .content-act-name{color: #ffcb60; font-size: 50px; font-weight: bold; background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,232,184,1)), to(rgba(175,133,48,1))); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
-        .content_middle{float: left; width: 1000px; height: 80px; line-height: 160px; }
+        .content_middle{float: left; width: 700px; height: 160px; line-height: 160px;}
         .content_middle ul li{float: left; padding: 0 20px;}
-        .content_middle ul{margin-left: 100px;}
+        .content_middle ul{margin-left: 70px;}
         .content_middle a{text-decoration: none; color: #c89b3c; font-size: 20px; font-weight: bold; padding:12px 20px;}
-        .content_middle a:hover{color: #ffcb60; box-shadow: 0 0 5px #c89b3c; background-color: #202020;}
-        .content_middle_con{width: 100%; height: 600px; box-shadow: 0px 2px 2px #ccc; border-top: 1px solid #ccc;}
+        .content_middle a:hover{color: #ffcb60; text-shadow:0 0 8px #c89b3c; box-shadow: 0 0 5px #c89b3c; background-color: #202020;}
+        .content_middle_con{width: 100%; height: 600px; box-shadow: 0px 2px 2px #c89b3c; border-top: 1px solid #c89b3c;}
+        .content_right{float: left; width: 300px; height: 160px;}
+        .content_right_input{position: relative; top: 66px; left: 48px; width: 252px;}
+        .content_right input{float: left; width: 200px; height: 25px; background-color: #cccccc77; border: 1px solid #c89b3c; font-size: 14px;}
+        .content_right button{float: left; width: 50px; height: 27px; border: 1px solid #c89b3c; background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,232,184,1)), to(rgba(175,133,48,1)));}
+        .content_right input:hover{background-color: aliceblue;}
+        .content_right_input button i{font-family: 'icomoon'; font-style: normal; color: aliceblue;}
+
