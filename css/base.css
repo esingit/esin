@@ -91,11 +91,11 @@ a:hover{
         margin-left: 93px;
 }
 .drop_down .drop_down_con{
-        width: 180px; 
+        width: 191px; 
         height: 0px; 
         background-color: #303030bb; 
         box-shadow: 0px 0px 2px #c89b3c; 
-        margin-left: -30px;
+        margin-left: -42px;
         position: relative;
         z-index: 2;
         overflow: hidden; 
@@ -120,6 +120,10 @@ a:hover{
         width: 74px;
         display: block;
         text-align: center;
+}
+.drop_down_a span:hover{
+        color: #c89b3c;
+        text-shadow: 0 0 10px #c89b3c;
 }
 .content_bg{
         width: 1200px; 
@@ -157,16 +161,18 @@ a:hover{
         height: 120px;
 }
 .content_right_input{
-        width: 252px; 
-        height: 27px;
-        margin: 46px 0 46px 48px;
+        width: 268px; 
+        height: 32px;
+        margin: 46px 0 46px 32px;
         }
 .content_right input{
         float: left; 
         width: 200px; 
-        height: 25px;
+        height: 30px;
+        padding: 0 8px;
+        color: rgb(224, 205, 162);
         background-color: #303030bb;
-        font-size: 14px; 
+        font-size: 16px; 
         border: 1px 
         solid #c89b3c;
 }
@@ -176,7 +182,7 @@ a:hover{
 .content_right button{
         float: left; 
         width: 50px; 
-        height: 27px; 
+        height: 32px; 
         border: 1px solid #c89b3c; 
         background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,232,184,1)), to(rgba(175,133,48,1)));
 }
@@ -226,19 +232,28 @@ a:hover{
         -webkit-transition: all 300ms ease 100ms;
         -o-transition: all 300ms ease 100ms;
 }
-.contant_middle_con_1 li{
+
+.contant_middle_con_ul li{
         float: left; 
         padding: 10px 20px 10px 20px;
 }
-.contant_middle_con_1 img{
+.contant_middle_con_ul img{
         width: 160px; 
         height: 250px; 
         box-shadow:0 0 8px #c89b3c;
 }
-.contant_middle_con_1 ul{
+.contant_middle_con_ul ul{
         margin: 0 auto; 
         width: 1100px; 
         height: 273px;
+}
+.contant_middle_con_ul{
+        width: 1000px;
+        height: 273px;
+        margin:0 auto;
+}
+.pic1 ul{
+        
 }
 /* 内容头部 */
      

@@ -24,10 +24,24 @@ $(document).ready(function(){
     });
 });
 
-$(document).ready(function() {
-    if ($("input[name='txtcontent']").val() == ""){
-        alert("对不起，请填写内容！")
-        $("input[name='txtcontent']").focus();
-        return false
-        }
+$(document).ready(function(){  
+    $(".pic1_li,.pic1").hover(function(){  
+        $(".pic1").css({"display":"block"});
+    },function(){  
+        $(".pic1").css({"display":"none"});
     });
+});
+$(document).ready(function(){  
+    $(".pic2_li,.pic2").hover(function(){  
+        $(".pic2").css({"display":"block"});
+    },function(){  
+        $(".pic2").css({"display":"none"});
+    });
+});
+$(document).ready(function(){  
+    $(".pic3_li,.pic3").hover(function(){  
+        $(".pic3").css({"display":"block"});
+    },function(){  
+        $(".pic3").css({"display":"none"});
+    });
+});
