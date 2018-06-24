@@ -16,27 +16,6 @@ $(document).ready(function(){
     });
 });
 
-$(document).ready(function(){
-    $(".drop_down").mouseover(function(){
-        $(".drop_down img").attr("src","image/tutu.gif");
-        $(".drop_down").addClass("drop_down_bg");
-        $(".drop_down>div").addClass("drop_down_con_show");
-        // $(".drop_down>div").slideDown(300,);
-    });
-        $(".drop_down").mouseout(function(){
-            $(".drop_down img").attr("src","image/WOW.gif");
-            $(".drop_down").removeClass("drop_down_bg");
-            $(".drop_down>div").removeClass("drop_down_con_show");
-            // $(".drop_down>div").slideUp(300,);
-        });
-        $("body").mouseover(function(e){
-            if($(e.target).closest(".drop_down").length==0){
-                $(".drop_down>div").removeClass("drop_down_con_show");
-                // $(".drop_down>div").slideUp(300,);
-            };
-        });
-});
-
 $(document).ready(function(){  
     $(".content_middle>ul,.content_middle_con").hover(function(){  
         $(".content_middle_con").stop(false,true).slideDown(300);
