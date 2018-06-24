@@ -18,9 +18,9 @@ $(document).ready(function(){
 
 $(document).ready(function(){  
     $(".content_middle>ul,.content_middle_con").hover(function(){  
-        $(".content_middle_con").stop(false,true).slideDown(300);
+        $(".content_middle_con").css({"height":"273px"});
     },function(){  
-        $(".content_middle_con").stop(false,true).slideUp(300);
+        $(".content_middle_con").css({"height":"0"});
     });
 });
 
