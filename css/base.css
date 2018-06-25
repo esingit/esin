@@ -24,7 +24,7 @@ a:hover{
 }
 .menu_bg{
         width: 100%; 
-        height: 44px; 
+        height: 44px;
         background-color: #202020;
         box-shadow: 0 0 3px #c89b3c;
         position: relative;
@@ -34,7 +34,6 @@ a:hover{
         margin: 0 auto; 
         width: 1200px;
 }
-/* .整站部分 */
 .menu_left ul li{
         float: left; 
         color: #a0a0a0; 
@@ -250,11 +249,31 @@ a:hover{
 .contant_middle_con_ul{
         width: 1000px;
         height: 273px;
-        margin:0 auto;
-}
-.pic1 ul{
-        
+        margin: 0 auto;
 }
 /* 内容头部 */
-     
+.main{
+        margin: 0 auto; 
+        width: 1200px;
+}
+.side{
+        width: 36px; 
+        height: 500px;
+        margin-left: 10px; 
+        z-index: 2; 
+        position: absolute;
+        top: 320px;
+        overflow: hidden;
+}   
+.side a{
+        width: 100%; 
+        margin: 0 2%; 
+        height: 24px; 
+        line-height: 24px; 
+        text-align: center; 
+        display: block; 
+        font-size: 16px; 
+        color: #5b6a7e; 
+        text-decoration: none;
+}  
 
