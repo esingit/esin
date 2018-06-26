@@ -1,6 +1,7 @@
   
 $(document).ready(function(){
     $(function () {
+        $('html').animate( {scrollTop: 0}, 500);
         $("a").click(function () {
 
             $("html, body").animate({scrollTop: $($(this).attr("href")).offset().top -20+ "px"}, 500);
