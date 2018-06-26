@@ -49,8 +49,6 @@ $(document).ready(function(){
             $(".pic0").css({"display":"block"});
             $(".pic1").css({"display":"none"});
             $(".pic2").css({"display":"none"});
-        },function(){  
-            $(".pic0").css({"display":"none"});
         });
 
 
@@ -58,8 +56,6 @@ $(document).ready(function(){
             $(".pic1").css({"display":"block"});
             $(".pic0").css({"display":"none"});
             $(".pic2").css({"display":"none"});
-        },function(){  
-            $(".pic1").css({"display":"none"});
         });
 
 
@@ -67,8 +63,6 @@ $(document).ready(function(){
             $(".pic2").css({"display":"block"});
             $(".pic0").css({"display":"none"});
             $(".pic1").css({"display":"none"});
-        },function(){  
-            $(".pic2").css({"display":"none"});
         });
     });
     
