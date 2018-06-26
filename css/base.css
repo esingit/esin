@@ -181,8 +181,7 @@ a:hover{
         color: rgb(224, 205, 162);
         background-color: #303030bb;
         font-size: 16px; 
-        border: 1px 
-        solid #c89b3c;
+        border: 1px solid #c89b3c;
 }
 .content_right button:active{
         background-image: -webkit-gradient(linear, 0 100%, 0 0, from(rgba(255,232,184,1)), to(rgba(175,133,48,1)));
@@ -273,19 +272,36 @@ a:hover{
 }
 
 .side{
-        width: 40px; 
-        height: 500px;
+        width: 56px; 
+        height: 450px;
+        padding: 10px 0;
         margin-left: 20px;
+        border: 2px solid #857045;
+        border-radius: 15px;
+        box-shadow: 0 0 1px #c89b3c;
+        background-color: #303030e3;
         position: absolute;
         z-index: 0;
         top: 280px;
         overflow: hidden;
 }  
-.side a,.main_con a{
+.side a{
+        width: 50px;
+        height: 24px;  
+        padding: 3px;
+        margin: 0 auto;
+        line-height: 24px; 
+        text-align: center; 
+        display: block; 
+        font-size: 16px; 
+        color: #ccc; 
+        text-decoration: none;
+}
+.main_con a{
         width: 100%; 
-        margin: 0 auto; 
-        padding: 1px;
-        height: 24px; 
+        height: 24px;  
+        padding: 3px;
+        margin: 0 auto;
         line-height: 24px; 
         text-align: center; 
         display: block; 
@@ -293,9 +309,13 @@ a:hover{
         color: #ccc; 
         text-decoration: none;
 }  
+.side a:hover,.back:hover{
+        box-shadow: 0 0 5px #005572;
+        background-color: #005572;
+}
 a:hover {
         color: #ffcb60;
-        text-shadow:0 0 15px #c89b3c;
+        text-shadow:0 0 10px #c89b3c;
 }
 .main_con{
         width: 1000px;
@@ -322,7 +342,6 @@ a:hover {
         color: #857045;
 }
 .logo{
-       
         font-size: 24px; 
         text-align: center; 
         color: #c89b3c;
@@ -332,9 +351,13 @@ a:hover {
 }
 
 .back{
+        padding: 5px;
         text-decoration: none;
         color: #c89b3c;
         position: fixed;
         font-size: 18px;
         display: none;
+        border: 2px solid #857045;
+        border-radius: 5px;
+        background-color: #303030e3;
 }

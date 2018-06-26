@@ -21,15 +21,28 @@ $(document).ready(function(){
             //滚动条的滑动距离大于等于定位元素距离浏览器顶部的距离，就固定，反之就不固定
             if(scroH>=navH){
             $(".menu_bg").css({"position":"fixed","top":"0px"});
-            $(".side").css({"position":"fixed","top":"180px"});
+            // $(".side").css({"position":"fixed","top":"180px"});
             $(".content_bg").css("margin","44px auto 0 auto");
             $(".back").css({"right":"50px","bottom":"50px","display":"block"});
             }
             else if(scroH<navH){
             $(".menu_bg").css("position","relative");
             $(".content_bg").css("margin","0 auto");
-            $(".side").css({"position":"absolute","top":"280px"});
+            // $(".side").css({"position":"absolute","top":"280px"});
             $(".back").css("display","none");
+            };
+        });
+    });
+
+    $(function(){
+        var navH = $(".content").offset().top;
+        $(window).scroll(function(){
+            var scroH = $(this).scrollTop();
+            if(scroH>=navH){
+            $(".side").css({"position":"fixed","top":"126px"});
+            }
+            else if(scroH<navH){
+            $(".side").css({"position":"absolute","top":"280px"});
             };
         });
     });
