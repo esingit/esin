@@ -307,7 +307,7 @@ a:hover {
         height: 40px; 
         text-align: center;
 }
-#td_con {
+#td_con{
         width: 250px; 
         height: 20px;
         font-size: 14px;
@@ -316,12 +316,21 @@ a:hover {
         text-align: center; 
         color: #a0a0a0; 
 }
+#td_con_e{
+        font-size: 14px; 
+        text-align: center; 
+        color: #857045;
+}
 .logo{
        
         font-size: 24px; 
         text-align: center; 
-        color: #a0a0a0;
+        color: #c89b3c;
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,232,184,1)), to(rgba(175,133,48,1))); 
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent;
 }
+
 .back{
         text-decoration: none;
         color: #c89b3c;
