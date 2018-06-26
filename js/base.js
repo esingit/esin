@@ -23,13 +23,13 @@ $(document).ready(function(){
             $(".menu_bg").css({"position":"fixed","top":"0px"});
             $(".side").css({"position":"fixed","top":"180px"});
             $(".content_bg").css("margin","44px auto 0 auto");
-            $(".back").css({"right":"50px","bottom":"50px"});
+            $(".back").css({"right":"50px","bottom":"50px","display":"block"});
             }
             else if(scroH<navH){
             $(".menu_bg").css("position","relative");
             $(".content_bg").css("margin","0 auto");
             $(".side").css({"position":"absolute","top":"280px"});
-            $(".back").css({"right":"1150px","bottom":"1150px"});
+            $(".back").css("display","none");
             };
         });
     });
