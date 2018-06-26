@@ -35,14 +35,14 @@ $(document).ready(function(){
     });
 
     $(function(){
-        var navH = $(".content").offset().top;
+        var navH = $("#sq").offset().top;
         $(window).scroll(function(){
             var scroH = $(this).scrollTop();
             if(scroH>=navH){
-            $(".side").css({"position":"fixed","top":"136px"});
+            $(".side").css({"position":"fixed","top":"94px"});
             }
             else if(scroH<navH){
-            $(".side").css({"position":"absolute","top":"280px"});
+            $(".side").css({"position":"absolute","top":"360px"});
             };
         });
     });
