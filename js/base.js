@@ -39,7 +39,7 @@ $(document).ready(function(){
         $(window).scroll(function(){
             var scroH = $(this).scrollTop();
             if(scroH>=navH){
-            $(".side").css({"position":"fixed","top":"126px"});
+            $(".side").css({"position":"fixed","top":"136px"});
             }
             else if(scroH<navH){
             $(".side").css({"position":"absolute","top":"280px"});
