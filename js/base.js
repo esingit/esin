@@ -45,22 +45,28 @@ $(document).ready(function(){
     });
 
     $(function(){
-        $(".pic1_li,.pic0").hover(function(){  
+        $(".pic0_li,.pic0").hover(function(){  
             $(".pic0").css({"display":"block"});
+            $(".pic1").css({"display":"none"});
+            $(".pic2").css({"display":"none"});
         },function(){  
             $(".pic0").css({"display":"none"});
         });
 
 
-        $(".pic2_li,.pic1").hover(function(){  
+        $(".pic1_li,.pic1").hover(function(){  
             $(".pic1").css({"display":"block"});
+            $(".pic0").css({"display":"none"});
+            $(".pic2").css({"display":"none"});
         },function(){  
             $(".pic1").css({"display":"none"});
         });
 
 
-        $(".pic3_li,.pic2").hover(function(){  
+        $(".pic2_li,.pic2").hover(function(){  
             $(".pic2").css({"display":"block"});
+            $(".pic0").css({"display":"none"});
+            $(".pic1").css({"display":"none"});
         },function(){  
             $(".pic2").css({"display":"none"});
         });
