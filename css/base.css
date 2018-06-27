@@ -19,7 +19,7 @@ a:hover{
         -o-transition: all 150ms linear;
 }
 .all{
-        max-width: 1403px; 
+        min-width: 1403px; 
         min-height: 1024px;
         
 }
