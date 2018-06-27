@@ -19,11 +19,15 @@ a:hover{
         -o-transition: all 150ms linear;
 }
 .all{
-        min-width: 1403px; 
+        min-width: 1349px; 
         min-height: 1024px;
         
 }
 .top{
+        height: 100px;
+}
+.top img{
+        width: 1349px;
         height: 100px;
 }
 .menu_bg{
