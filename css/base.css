@@ -182,7 +182,7 @@ a:hover{
         width: 200px; 
         height: 30px;
         padding: 0 8px;
-        color: rgb(224, 205, 162);
+        color: #c89b3c;
         background-color: #303030bb;
         font-size: 16px; 
         border: 1px solid #c89b3c;
@@ -198,7 +198,7 @@ a:hover{
         background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,232,184,1)), to(rgba(175,133,48,1)));
 }
 .content_right input:hover{
-        background-color: rgba(83, 66, 46, 0.61);
+        background-color: #00557236;
 }
 .content_right_input button i{
         font-family: 'icomoon'; 
